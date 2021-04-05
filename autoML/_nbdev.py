@@ -2,9 +2,20 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"model_predict": "01_Regression.ipynb",
+index = {"convert_str": "01_Regression.ipynb",
+         "scaler": "01_Regression.ipynb",
+         "comb": "01_Regression.ipynb",
+         "rf_colselector": "01_Regression.ipynb",
+         "corr_colselector": "01_Regression.ipynb",
+         "ColProcessor": "01_Regression.ipynb",
+         "interaction_feats": "01_Regression.ipynb",
+         "poly_feats": "01_Regression.ipynb",
+         "pca_feats": "01_Regression.ipynb",
+         "clubbed_feats": "01_Regression.ipynb",
+         "preprocess": "01_Regression.ipynb",
+         "final_preprocessor": "01_Regression.ipynb",
          "combined_metrics": "01_Regression.ipynb",
-         "confusion_matrix_plot": "01_Regression.ipynb",
+         "confusion_matrix_plot": "00_Classification.ipynb",
          "to_excel": "01_Regression.ipynb",
          "get_table_download_link": "01_Regression.ipynb",
          "GNB": "01_Regression.ipynb",
@@ -22,7 +33,8 @@ index = {"model_predict": "01_Regression.ipynb",
          "test_data": "01_Regression.ipynb",
          "LinearReg": "01_Regression.ipynb"}
 
-modules = ["core.py"]
+modules = ["classification.py",
+           "Regression.py"]
 
 doc_url = "https://jatin.github.io/autoML/"
 
